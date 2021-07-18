@@ -1,0 +1,134 @@
+{% extends "layout.html" %}
+{% block body %}
+<body style="background-color: lightyellow;"></body>		
+		<div class="shopping-cart section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-12">
+						<!-- Shopping Summery -->
+						<table class="table shopping-summery">
+							<thead>
+								<tr class="main-hading">
+									
+									
+									
+									<th class="text-center">UPLOAD NEW PRODUCT</th>
+									
+									
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								</tr>
+							</tbody>
+						</table>
+						<!--/ End Shopping Summery -->
+					</div>
+				</div>
+				
+		<!-- Start Checkout -->
+		<section class="shop checkout section">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-lg-8 col-12">
+						<div class="checkout-form">
+							
+							
+							<!-- Form -->
+							<form class="form" method="POST" action="/upload" enctype="multipart/form-data">
+								<div class="row">
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Product Name<span></span></label>
+											<input type="text" name="name" placeholder="" required="required" >
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label></label>Enter Description<span></span></label>
+											<input type="text" name="description" placeholder="" required="required" >
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Cost Price<span></span></label>
+											<input type="text" name="cost_price" placeholder="" required="required">
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Shipping (1/0)<span></span></label>
+											<input type="text" name="shipping" placeholder="" required="required">
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Brand<span></span></label>
+											<input type="text" name="brand" placeholder="" >
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Category<span></span></label>
+											<input type="text" name="category" placeholder="" required="required">
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Size<span></span></label>
+											<input type="text" name="size" placeholder="" required="required">
+										</div>
+									</div>
+
+									
+									
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Colour<span></span></label>
+											<input type="text" name="colour" placeholder="" required="required">
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Material</label>
+											<input type="text" name="material" placeholder="" required="required">
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Enter Product-type<span></span></label>
+											<input type="text" name="product_type" placeholder="" >
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<div class="form-group">
+											<label>Upload image of product<span></span></label>
+											<input type="file" name="photo" placeholder="" required="required" accept="image/*">
+										</div>
+									</div>
+									
+									<!--<div class="col-12">
+										<div class="form-group create-account">
+											<input id="cbox" type="checkbox">
+											<label>Create an account?</label>
+										</div>
+									</div>
+								</div>-->
+							</form>
+							
+							<div class="single-widget get-button">
+								<div class="content">
+									<div class="button">
+										<button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+									</div>
+								</div>
+							</div>
+							<!--/ End Button Widget -->
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Checkout -->
+{% endblock %}
