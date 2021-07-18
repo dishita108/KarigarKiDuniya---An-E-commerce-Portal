@@ -22,3 +22,24 @@ Database - MySQL
 - Translation of webpages into various languages
 - Various Searching/ Sorting options including Voice Search
 - Dummy Payment Gateaway
+
+## Screenshots
+ ##### Customer Dashboard
+ ![](screenshots/cust_dash1.png)
+ 
+ ##### Products in each category
+ ![](screenshots/kurtidisp.png)
+ 
+ ##### Market Basket Analysis
+ ![](screenshots/mark_bask2.png)
+ 
+  ##### Seller Products upload
+ ![](screenshots/upload_prod1.png)
+ 
+   ##### Price Prediction for seller
+ ![](screenshots/price_pred2.png)
+
+   ##### View previously uploaded products
+ ![](screenshots/prev_prod1.png)
+ 
+ *For more implementation images, checkout the screenshots folder.*
